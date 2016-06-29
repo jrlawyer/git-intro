@@ -1,0 +1,43 @@
+body{
+	background-color: #e0e0eb;
+
+
+}
+
+.background-image{
+	background-clip: 
+}
+
+.background-fill {
+background-color: #0000cc; 
+}
+
+
+
+
+.password {
+	font-size: 30px;
+}
+
+
+.navbar-default .navbar-brand {
+	color: #ff0000; 
+	font-size: 18px;
+
+}
+
+.table{
+	background-color: #ffffff;
+}
+
+.text-center{
+font-size: 60px;
+
+.container{
+	width: 150px;
+	height: 150px;
+	background-image:url("http://i.huffpost.com/gen/2159432/images/o-EMPTY-CLASSROOM-facebook.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%
+}
