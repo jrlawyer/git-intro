@@ -1,18 +1,56 @@
 body{
-	background-color: #e0e0eb;
+	background-color:  #d9d9d9;
 
 
 }
 
-.background-image{
-	background-clip: 
+.jumbotron {
+	background-image:url("../assets/images/Leaves.jpg");
+	height: 25em;
+	width: 100%;
+	background-position: 100% 0%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*color: white;*/
+	text-shadow: black 0.3em 0.3em 0.3em
+}
+
+.jumbotron h1{
+	color: white;
+	text-align: center;
 }
 
 .background-fill {
 background-color: #0000cc; 
 }
 
+.content{
+	background-color: white;
+	margin: 2.5em;
+	border-radius: .5em;
+	padding: 1em;
+}
 
+.vert{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.imessage{
+	background-color: #f2f2f2;
+	margin-right: 12px;
+	height: 6em;
+	border-radius: 1em;	
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+
+}
+
+.round{
+	border-radius: 75px;
+}
 
 
 .password {
@@ -21,7 +59,7 @@ background-color: #0000cc;
 
 
 .navbar-default .navbar-brand {
-	color: #ff0000; 
+	color:  #ffffff; 
 	font-size: 18px;
 
 }
@@ -33,11 +71,3 @@ background-color: #0000cc;
 .text-center{
 font-size: 60px;
 
-.container{
-	width: 150px;
-	height: 150px;
-	background-image:url("http://i.huffpost.com/gen/2159432/images/o-EMPTY-CLASSROOM-facebook.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%
-}

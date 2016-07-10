@@ -1,5 +1,6 @@
 //create a variable called msg to hold a new message
 
+
 var msg1 = "To have a better understanding of coding";
 var msg2 = "To gain a new skill set";
 var msg3 = "To have a new career path";
@@ -7,6 +8,7 @@ var msg3 = "To have a new career path";
 //create a function to update the content of the element whose id attributes has a value of message.
 
 function updateMessage() {
+
 	var el = document.getElementById('message1');
 
 	el.textContent = msg1;
@@ -32,3 +34,11 @@ function updateMessage() {
 
 // Write the number into that element
 	el.innerHTML = '<h1>random number</h1><h2>' + randomNum + '</h2>';
+
+
+	var saying = "Home sweet home";
+
+	var message = '<h2>Lower:<h2><h1>' + saying[11] + '</p>';
+
+	var elment = document.getElementById('messageInABottle').innerHTML = message;
+
